@@ -5,39 +5,43 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-    int[] numbers = {0, 100 , 1000, 2000};
-
-
-   /* Scanner sc = new Scanner(System.in);
-    System.out.println("type something to crash the program");
-    sc.nextLine();*/
-
-        /*for (int i = 0; i < numbers.length + 1 ; i++) {
-            System.out.println(numbers[i]);
-
-        }*/
-
-        System.out.println("Before crash");
 
 
 
-        try{
-            // Try to execute code
-            System.out.println("Inside TRY");
-            System.out.println(2/0);
+       /*TODO - Step by Step with METHODS
+          How should we structure our project
+          How should one 'think'?
+          Where does one 'start'?
+          Where does one 'end'?
+        */
 
-        }catch (Exception error){
-            // Catch error if it FAILS
-            System.out.println("Inside - CATCH");
-            error.printStackTrace();
+        /**TODO - E commerce APP
+         *  Order Product
+         *  Pay for Product
+         *  Ship Product
+         *  End
+         */
+
+        // #1 orderProduct()
+        // #2 payForProduct()
+        // #3 shipProduct()
+        // #4 sendConfirmationEmail()
 
 
-        }
+        // Initialize Project
+        // Setup Variables
+        // setupGame()
+           // inputPlayerName()
+          // inputAmountOfDice()
 
-        System.out.println("After crash");
+        // player
+             // int score;
+            // throwDice()
 
 
-
-
+        // gameLogic()
+              // determineWinner()
+             // calculateScore()
+            // throwDice()
     }
 }
